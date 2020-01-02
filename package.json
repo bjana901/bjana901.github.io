@@ -1,0 +1,19 @@
+{
+  "name": "tailwindcsspractice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwind build source/style.css -o dist/style.css"
+  },
+  "keywords": [
+    "tailwind",
+    "node"
+  ],
+  "author": "shree",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^1.1.4"
+  }
+}
